@@ -1,0 +1,165 @@
+/* CSS untuk tampilan website SeleraLiterasi */
+
+/* Mengatur tampilan halaman secara umum */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Mengatur tampilan header */
+header {
+	background-color: #343a40;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 50px;
+	margin-right: 10px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu li {
+	list-style: none;
+	margin: 0 10px;
+}
+
+.menu a {
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 5px 10px;
+	transition: all 0.3s ease;
+}
+
+.menu a:hover {
+	background-color: white;
+	color: #343a40;
+	border-radius: 10px;
+}
+
+.tagline {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Mengatur tampilan konten utama */
+main {
+	margin-top: 100px;
+}
+
+section {
+	margin-bottom: 50px;
+	padding: 30px 0;
+}
+
+section h2 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.genres {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.genre {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.1);
+	margin: 20px;
+	padding: 30px;
+	width: 300px;
+}
+
+.genre h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.genre ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.genre li {
+	margin-bottom: 20px;
+}
+
+.genre img {
+	display: block;
+	height: 200px;
+	margin-bottom: 10px;
+	width: 150px;
+}
+
+.genre h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.genre p {
+	font-size: 16px;
+	margin: 0;
+}
+
+/* Mengatur tampilan bagian About Us */
+.about-us {
+	display: flex;
+	justify-content: center;
+}
+
+.founder {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.1);
+	padding: 30px;
+	width: 300px;
+}
+
+.founder h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.founder p {
+	font-size: 16px;
+	margin: 0;
+}
+
+/* Mengatur tampilan footer */
+footer {
+	background-color: #343a40;
+	color: white;
+	display: flex;
+	justify-content: center
